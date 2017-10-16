@@ -82,7 +82,7 @@
 
         <!--定义全局结果视图, 当返回login时, 跳转到登录界面-->
         <global-results>
-            <result name="login">login.jsp</result>
+            <result name="login">/login.jsp</result>
         </global-results>
 
         <action name="test"
