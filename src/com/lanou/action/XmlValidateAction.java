@@ -6,8 +6,8 @@ import com.opensymphony.xwork2.ActionSupport;
  * Created by dllo on 17/10/12.
  */
 public class XmlValidateAction extends ActionSupport {
-    private String username;
-    private String password;
+    private String username; // 用户名
+    private String password; // 密码
 
     public String login(){
         return SUCCESS;
