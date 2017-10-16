@@ -10,8 +10,8 @@ import org.apache.struts2.interceptor.validation.SkipValidation;
  */
 public class CustomValidateAction extends ActionSupport {
 
-    private String username;
-    private String password;
+    private String username;  // 用户名
+    private String password;  // 密码
 
     public String login(){
         System.out.println("进入登录方法");
